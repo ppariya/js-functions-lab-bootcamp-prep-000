@@ -1,9 +1,9 @@
 function happyHolidays() {
   return "Happy holidays!"
 }
-function happyHolidaysTo(name) {
+function happyHolidaysTo(holiday, name) {
   console.log(`Happy holidays, ${name}!`)
 }
-function holidayCountdown(days, holiday) {
+function holidayCountdown(holiday, days) {
   console.log(`It's ${days} days until ${holiday}!`)
 }
